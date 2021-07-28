@@ -1,7 +1,7 @@
 {
   "name": "Discourse Wikified Posts",
   "component": true,
-  "license_url": null,
+  "license_url": "https://github.com/nathan-nz/discourse-wikified-posts/blob/master/LICENSE",
   "about_url": "https://meta.discourse.org/t/how-to-change-the-style-of-a-wiki-post/78881",
-  "authors": "nathankershaw"
+  "authors": "nathan-nz"
 }
