@@ -28,7 +28,7 @@
 // Add Wiki Text
 @if ($wiki_added_text != "") {
     .post-info.edits .wiki::before {
-        content: "Wiki Post";
+        content: "#{$Wiki_added_text}";
         margin-right: 5px;
         font-weight: bold;
     }  
