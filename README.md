@@ -1,4 +1,4 @@
-# Discourse Wikified Posts
+## Discourse Wikified Posts
 
 This Theme Component allows enables you to make Wiki posts more obvious.
 
