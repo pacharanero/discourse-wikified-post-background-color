@@ -1,4 +1,9 @@
-.wiki .topic-body {
+.wiki .topic-body .cooked {
     background-color: #e3f7de;
     animation: none;
+}
+.post-info.edits .wiki::before {
+    content: "Wiki Post";
+    margin-right: 5px;
+    font-weight: bold;
 }
