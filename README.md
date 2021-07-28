@@ -1,8 +1,7 @@
-# discourse-wikified-post-background-color
-A very simple Discourse Theme Component which adds a distinctive green (but customisable) background colour to Wikified posts (like they used t' be back when ah wer' a young lad)
+# Discourse Wikified Posts
 
-* Install from GitHub URL using the Discourse theme component installation panel in the Admin > Customize > Themes area
-* You can change the background colour by editing the CSS in the theme compoment edit panel
+This Theme Component allows enables you to make Wiki posts more obvious.
 
-* Improvements by pull request are always welcome!
+You can set the background color, which is applied to all Wiki posts.
 
+You can also set some text, which is placed to the immediate left of the edit history icon in the top right of each wiki post. The colour of this text changes dynamically as the edit state changes (this is in core).
