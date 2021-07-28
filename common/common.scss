@@ -1,4 +1,47 @@
-.wiki .topic-body {
-    background-color: #e3f7de;
+@import "common/foundation/variables";
+/* $Wiki_post_background_color: defined as theme setting */
+/* $wiki_added_text: defined as theme setting */
+
+// 
+@if $Wiki_post_background_color == "primary" {
+    $Wiki_post_background_color: $primary;
+}
+@if $Wiki_post_background_color == "secondary" {
+    $Wiki_post_background_color: $secondary;
+}
+@if $Wiki_post_background_color == "tertiary" {
+    $Wiki_post_background_color: $tertiary;
+}
+@if $Wiki_post_background_color == "quaternary" {
+    $wiki_post_background_color: $quaternary;
+}
+@if ($Wiki_post_background_color == ""){
+    $wiki_post_background_color: green;
+}
+
+// Apply color and stop animation
+.wiki .topic-body .cooked {
+    background-color: $Wiki_post_background_color;
     animation: none;
 }
+
+// Add Wiki Text
+@if ($wiki_added_text != "") {
+    .post-info.edits .wiki::before {
+        content: "Wiki Post";
+        margin-right: 5px;
+        font-weight: bold;
+    }  
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
