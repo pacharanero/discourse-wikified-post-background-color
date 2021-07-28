@@ -1,0 +1,9 @@
+Wiki_post_background_color:
+  type: string
+  default: green
+  description: 'Enter a background color for your wiki posts.<br> Colors can be by name e.g. blue, green red, yellow, black, white<br>You can also enter primary, secondary, tertiary and quaternary to match your theme color settings.<br>For FIXED colors you can also enter a html code e.g. #0066CC. PLEASE NOTE you must set the opacity to 100% if using the html color codes.'
+
+Wiki_added_text:
+  type: string
+  default: 'Wiki Post'
+  description: 'Text to be placed next to the edits icon in the top right corner of the post. Leave blank if no text is desired'
