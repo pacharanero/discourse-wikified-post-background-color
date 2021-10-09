@@ -41,12 +41,6 @@
 }
 
 
-@if ($Dark_theme_color == ""){}
-@else {
-    $Wiki_post_background_color: dark-light-choose($Wiki_post_background_color, $Dark_theme_color)
-}
-
-
 // Apply color and stop animation
 .wiki .topic-body .cooked {
     background-color: $Wiki_post_background_color;
