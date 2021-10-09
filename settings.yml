@@ -1,11 +1,11 @@
 Wiki_post_background_color:
   type: string
-  default: highlight
+  default: 'highlight'
   description: 'Enter a background color for your wiki posts.<br> HTML color or any Scheme color (primary, secondary, tertiary, quaternary, header background, header primary, highlight, danger, success, love)'
 
 Dark_theme_color:
   type: string
-  description: 'Enter a background color for your wiki posts.<br> HTML color. Not needed if a Scheme color chosen above.
+  description: 'Enter a background color for your wiki posts.<br> HTML color. Not needed if a Scheme color chosen above.'
 
 Wiki_added_text:
   type: string
