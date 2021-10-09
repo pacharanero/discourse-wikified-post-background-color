@@ -5,6 +5,7 @@ Wiki_post_background_color:
 
 Dark_theme_color:
   type: string
+  default: ''
   description: 'Enter a background color for your wiki posts.<br> HTML color. Not needed if a Scheme color chosen above.'
 
 Wiki_added_text:
