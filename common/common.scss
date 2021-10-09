@@ -5,32 +5,32 @@
 
 // 
 @if $Wiki_post_background_color == "primary" {
-    $Wiki_post_background_color: var(--primary);
+    $Wiki_post_background_color: $primary;
 }
 @if $Wiki_post_background_color == "secondary" {
-    $Wiki_post_background_color: var(--secondary);
+    $Wiki_post_background_color: $secondary;
 }
 @if $Wiki_post_background_color == "tertiary" {
-    $Wiki_post_background_color: var(--tertiary);
+    $Wiki_post_background_color: $tertiary;
 }
 @if $Wiki_post_background_color == "quaternary" {
-    $Wiki_post_background_color: var(--quaternary);
+    $Wiki_post_background_color: $quaternary;
 }
 @if $Wiki_post_background_color == "highlight" {
     $Wiki_post_background_color: $highlight;
 }
 @if $Wiki_post_background_color == "danger" {
-    $Wiki_post_background_color: var(--danger);
+    $Wiki_post_background_color: $danger;
 }
 @if $Wiki_post_background_color == "success" {
-    $Wiki_post_background_color: var(--success);
+    $Wiki_post_background_color: $success;
 }
 @if $Wiki_post_background_color == "love" {
-    $Wiki_post_background_color: var(--love);
+    $Wiki_post_background_color: $love;
 }
 
 @if ($Wiki_post_background_color == ""){
-    $Wiki_post_background_color: green;
+    $Wiki_post_background_color: var(--highlight-low, $highlight-low);
 }
 
 @if ($Wiki_opacity == "5%") {
