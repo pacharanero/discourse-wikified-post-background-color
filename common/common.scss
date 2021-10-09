@@ -4,6 +4,11 @@
 /* $wiki_added_text: defined as theme setting */
 
 // 
+
+@if $Dark_theme_color <> "" {
+    $Wiki_post_background_color: dark-light-choose($Wiki_post_background_color, $Dark_theme_color)
+}
+
 @if $Wiki_post_background_color == "primary" {
     $Wiki_post_background_color: var(--primary-low, $primary-low);
 }
