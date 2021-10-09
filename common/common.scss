@@ -5,28 +5,28 @@
 
 // 
 @if $Wiki_post_background_color == "primary" {
-    $Wiki_post_background_color: $primary;
+    $Wiki_post_background_color: var(--primary);
 }
 @if $Wiki_post_background_color == "secondary" {
-    $Wiki_post_background_color: $secondary;
+    $Wiki_post_background_color: var(--secondary);
 }
 @if $Wiki_post_background_color == "tertiary" {
-    $Wiki_post_background_color: $tertiary;
+    $Wiki_post_background_color: var(--tertiary);
 }
 @if $Wiki_post_background_color == "quaternary" {
-    $Wiki_post_background_color: $quaternary;
+    $Wiki_post_background_color: var(--quaternary);
 }
 @if $Wiki_post_background_color == "highlight" {
-    $Wiki_post_background_color: $highlight;
+    $Wiki_post_background_color: var(--highlight);
 }
 @if $Wiki_post_background_color == "danger" {
-    $Wiki_post_background_color: $danger;
+    $Wiki_post_background_color: var(--danger);
 }
 @if $Wiki_post_background_color == "success" {
-    $Wiki_post_background_color: $success;
+    $Wiki_post_background_color: var(--success);
 }
 @if $Wiki_post_background_color == "love" {
-    $Wiki_post_background_color: $love;
+    $Wiki_post_background_color: var(--love);
 }
 
 @if ($Wiki_post_background_color == ""){
@@ -34,25 +34,25 @@
 }
 
 @if ($Wiki_opacity == "5%") {
-    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 5%);
+    $Wiki_post_background_color: mix($Wiki_post_background_color, var(--secondary), 5%);
 }
 @if ($Wiki_opacity == "10%") {
-    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 10%);
+    $Wiki_post_background_color: mix($Wiki_post_background_color, var(--secondary), 10%);
 }
 @if ($Wiki_opacity == "15%") {
-    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 15%);
+    $Wiki_post_background_color: mix($Wiki_post_background_color, var(--secondary), 15%);
 }
 @if ($Wiki_opacity == "25%") {
-    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 25%);
+    $Wiki_post_background_color: mix($Wiki_post_background_color, var(--secondary), 25%);
 }
 @if ($Wiki_opacity == "35%") {
-    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 35%);
+    $Wiki_post_background_color: mix($Wiki_post_background_color, var(--secondary), 35%);
 }
 @if ($Wiki_opacity == "50%") {
-    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 50%);
+    $Wiki_post_background_color: mix($Wiki_post_background_color, var(--secondary), 50%);
 }
 @if ($Wiki_opacity == "75%") {
-    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 75%);
+    $Wiki_post_background_color: mix($Wiki_post_background_color, var(--secondary), 75%);
 }
 
 // Apply color and stop animation
