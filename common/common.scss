@@ -1,5 +1,6 @@
 @import "common/foundation/variables";
 /* $Wiki_post_background_color: defined as theme setting */
+/* $Dark_theme_color: defined as theme setting */
 /* $wiki_added_text: defined as theme setting */
 
 // 
@@ -14,6 +15,12 @@
 }
 @if $Wiki_post_background_color == "quaternary" {
     $Wiki_post_background_color: var(--quaternary-low, $quaternary-low);
+}
+@if $Wiki_post_background_color == "header-background" {
+    $Wiki_post_background_color: var(--header-background-low, $header-background-low);
+}
+@if $Wiki_post_background_color == "header-primary" {
+    $Wiki_post_background_color: var(--header-primary-low, $header-primary-low);
 }
 @if $Wiki_post_background_color == "highlight" {
     $Wiki_post_background_color: var(--highlight-low, $highlight-low);
