@@ -23,10 +23,10 @@
     $Wiki_post_background_color: var(--danger-low, $danger-low);
 }
 @if $Wiki_post_background_color == "success" {
-    $Wiki_post_background_color: var(--success, $success-low);
+    $Wiki_post_background_color: var(--success-low, $success-low);
 }
 @if $Wiki_post_background_color == "love" {
-    $Wiki_post_background_color: var(--love; $love-low);
+    $Wiki_post_background_color: var(--love-low, $love-low);
 }
 
 @if ($Wiki_post_background_color == ""){
