@@ -17,7 +17,7 @@
     $Wiki_post_background_color: var(--quaternary);
 }
 @if $Wiki_post_background_color == "highlight" {
-    $Wiki_post_background_color: var(--highlight);
+    $Wiki_post_background_color: $highlight;
 }
 @if $Wiki_post_background_color == "danger" {
     $Wiki_post_background_color: var(--danger);
