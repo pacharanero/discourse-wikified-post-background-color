@@ -3,21 +3,42 @@
 /* $wiki_added_text: defined as theme setting */
 
 // 
+
 @if $Wiki_post_background_color == "primary" {
-    $Wiki_post_background_color: $primary;
+    $Wiki_post_background_color: var(--primary-low, $primary-low);
 }
 @if $Wiki_post_background_color == "secondary" {
-    $Wiki_post_background_color: $secondary;
+    $Wiki_post_background_color: var(--secondary-low, $secondary-low);
 }
 @if $Wiki_post_background_color == "tertiary" {
-    $Wiki_post_background_color: $tertiary;
+    $Wiki_post_background_color: var(--tertiary-low, $tertiary-low);
 }
 @if $Wiki_post_background_color == "quaternary" {
-    $wiki_post_background_color: $quaternary;
+    $Wiki_post_background_color: var(--quaternary-low, $quaternary-low);
 }
+@if $Wiki_post_background_color == "header-background" {
+    $Wiki_post_background_color: var(--header-background-low, $header-background-low);
+}
+@if $Wiki_post_background_color == "header-primary" {
+    $Wiki_post_background_color: var(--header-primary-low, $header-primary-low);
+}
+@if $Wiki_post_background_color == "highlight" {
+    $Wiki_post_background_color: var(--highlight-low, $highlight-low);
+}
+@if $Wiki_post_background_color == "danger" {
+    $Wiki_post_background_color: var(--danger-low, $danger-low);
+}
+@if $Wiki_post_background_color == "success" {
+    $Wiki_post_background_color: var(--success-low, $success-low);
+}
+@if $Wiki_post_background_color == "love" {
+    $Wiki_post_background_color: var(--love-low, $love-low);
+}
+
 @if ($Wiki_post_background_color == ""){
-    $wiki_post_background_color: green;
+    $Wiki_post_background_color: var(--highlight-low, $highlight-low);
 }
+
 
 // Apply color and stop animation
 .wiki .topic-body .cooked {
