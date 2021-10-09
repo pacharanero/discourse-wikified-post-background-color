@@ -16,8 +16,21 @@
 @if $Wiki_post_background_color == "quaternary" {
     $Wiki_post_background_color: $quaternary;
 }
+@if $Wiki_post_background_color == "highlight" {
+    $Wiki_post_background_color: $highlight;
+}
+@if $Wiki_post_background_color == "danger" {
+    $Wiki_post_background_color: $danger;
+}
+@if $Wiki_post_background_color == "success" {
+    $Wiki_post_background_color: $success;
+}
+@if $Wiki_post_background_color == "love" {
+    $Wiki_post_background_color: $love;
+}
+
 @if ($Wiki_post_background_color == ""){
-    $wiki_post_background_color: green;
+    $Wiki_post_background_color: green;
 }
 
 @if ($Wiki_opacity == "5%") {
