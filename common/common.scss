@@ -1,6 +1,7 @@
 @import "common/foundation/variables";
 /* $Wiki_post_background_color: defined as theme setting */
 /* $wiki_added_text: defined as theme setting */
+/* $wiki_opacity: defined as theme setting */
 
 // 
 @if $Wiki_post_background_color == "primary" {
@@ -13,10 +14,32 @@
     $Wiki_post_background_color: $tertiary;
 }
 @if $Wiki_post_background_color == "quaternary" {
-    $wiki_post_background_color: $quaternary;
+    $Wiki_post_background_color: $quaternary;
 }
 @if ($Wiki_post_background_color == ""){
     $wiki_post_background_color: green;
+}
+
+@if ($Wiki_opacity == "5%") {
+    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 5%);
+}
+@if ($Wiki_opacity == "10%") {
+    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 10%);
+}
+@if ($Wiki_opacity == "15%") {
+    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 15%);
+}
+@if ($Wiki_opacity == "25%") {
+    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 25%);
+}
+@if ($Wiki_opacity == "35%") {
+    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 35%);
+}
+@if ($Wiki_opacity == "50%") {
+    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 50%);
+}
+@if ($Wiki_opacity == "75%") {
+    $Wiki_post_background_color: mix($Wiki_post_background_color, $secondary, 75%);
 }
 
 // Apply color and stop animation
