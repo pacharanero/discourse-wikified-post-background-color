@@ -10,7 +10,6 @@ Wiki_added_text:
   
 Shared_edits_hide:
   type: enum
-  default: 'No'
   choices:
     - Yes
     - No
