@@ -14,4 +14,4 @@ Shared_edits_hide:
   choices:
     - 'Yes'
     - 'No'
-  description: 'Disable the edit button in the post review panel? This eliminates the chance of a clash if the Shared Edits plugin is being used.'
+  description: 'Disable the edit button in the post review panel?<br>This eliminates the chance of a clash if the Shared Edits plugin is being used.'
