@@ -5,6 +5,10 @@
 
 // 
 
+@if ($Wiki_post_background_color == ""){
+    $Wiki_post_background_color: var(--primary-low, $primary-low);
+}
+
 @if $Wiki_post_background_color == "primary" {
     $Wiki_post_background_color: var(--primary-low, $primary-low);
 }
@@ -34,10 +38,6 @@
 }
 @if $Wiki_post_background_color == "love" {
     $Wiki_post_background_color: var(--love-low, $love-low);
-}
-
-@if ($Wiki_post_background_color == ""){
-    $Wiki_post_background_color: var(--highlight-low, $highlight-low);
 }
 
 @if ($Shared_edits_hide == "Yes"){
