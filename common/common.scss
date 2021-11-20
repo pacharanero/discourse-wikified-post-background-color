@@ -3,7 +3,6 @@
 /* $wiki_added_text: defined as theme setting */
 /* $Shared_edits_hide: defined as theme setting */
 
-// 
 
 @if ($Wiki_post_background_color == ""){
     $Wiki_post_background_color: var(--primary-low, $primary-low);
