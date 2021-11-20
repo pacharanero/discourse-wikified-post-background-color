@@ -8,3 +8,10 @@ Wiki_added_text:
   default: 'Wiki Post'
   description: 'Text to be placed next to the edits icon in the top right corner of the post. Leave blank if no text is desired'
   
+Shared_edits_hide:
+  type: enum
+  default: 'No'
+  choices:
+    - Yes
+    - No
+  description: 'Disable the edit button in the post review panel? This eliminates the chance of a clash if the Shared Edits plugin is being used.'
