@@ -1,6 +1,7 @@
 @import "common/foundation/variables";
 /* $Wiki_post_background_color: defined as theme setting */
 /* $wiki_added_text: defined as theme setting */
+/* $Shared_edits_hide: defined as theme setting */
 
 // 
 
@@ -39,6 +40,11 @@
     $Wiki_post_background_color: var(--highlight-low, $highlight-low);
 }
 
+@if ($Shared_edits_hide == "Yes"){
+    div#revision-footer-buttons button:nth-of-type(1) {
+    display: none !important;
+    }    
+}    
 
 // Apply color and stop animation
 .wiki .topic-body .cooked {
