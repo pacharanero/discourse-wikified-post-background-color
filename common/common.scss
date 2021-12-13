@@ -104,4 +104,5 @@
         content: "#{$Shared_edits_added_text}";
         margin-right: 5px;
         font-weight: bold;
+        color: var(--danger, $danger)
     }
