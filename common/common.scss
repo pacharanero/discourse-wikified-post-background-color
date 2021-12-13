@@ -2,6 +2,7 @@
 /* $Wiki_post_background_color: defined as theme setting */
 /* $Shared_edits_background_color: defined as theme setting */
 /* $wiki_added_text: defined as theme setting */
+/* $Shared_edits_added_text: defined as theme setting */
 /* $Shared_edits_hide: defined as theme setting */
 
 
@@ -100,7 +101,7 @@
         font-weight: bold;
     }
     .shared-edits-post .post-info.edits .widget-button::before {
-        content: "Shared Edits";
+        content: "#{Shared_edits_added_text}";
         margin-right: 5px;
         font-weight: bold;
     }
