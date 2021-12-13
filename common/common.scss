@@ -52,11 +52,11 @@
 }
 
 // Add Wiki Text
-    .post-info.edits .wiki::before {
-        content: "#{$Wiki_added_text}";
-        margin-right: 5px;
-        font-weight: bold;
-    }
+//    .post-info.edits .wiki::before {
+//        content: "#{$Wiki_added_text}";
+//        margin-right: 5px;
+//        font-weight: bold;
+//    }
     .post-info.edits .shared-edits-post::before {
         content: "Shared Edits";
         margin-right: 5px;
