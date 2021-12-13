@@ -58,7 +58,7 @@
 //        font-weight: bold;
 //    }
     .shared-edits-post .post-info.edits::before {
-        content: "#{$Wiki_added_text}";
+        content: "Shared Edits";
         margin-right: 5px;
         font-weight: bold;
     }
