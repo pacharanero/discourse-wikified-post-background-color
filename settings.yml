@@ -1,12 +1,22 @@
 Wiki_post_background_color:
   type: string
   default: 'primary'
-  description: 'Enter a background color for your wiki posts.<br>Choose any Scheme color (primary, secondary, tertiary, quaternary, header background, header primary, highlight, danger, success, love)<br>You can also use HTML color codes (e.g. #abc123) or names (e.g. red)'
+  description: 'Enter a background color for your Wiki posts.<br>Choose any Scheme color (primary, secondary, tertiary, quaternary, header background, header primary, highlight, danger, success, love)<br>You can also use HTML color codes (e.g. #abc123) or names (e.g. red)'
+
+Shared_edits_background_color:
+  type: string
+  default: 'highlight'
+  description: 'Enter a background color for Shared Edits posts.<br>Choose any Scheme color (primary, secondary, tertiary, quaternary, header background, header primary, highlight, danger, success, love)<br>You can also use HTML color codes (e.g. #abc123) or names (e.g. red)'
 
 Wiki_added_text:
   type: string
   default: 'Wiki Post'
   description: 'Text to be placed next to the edits icon in the top right corner of the post. Leave blank if no text is desired'
+  
+Shared_edits_added_text:
+  type: string
+  default: 'Shared Edits'
+  description: 'Text to be placed next to the edits icon in the top right corner of the post. Leave blank if no text is desired'  
   
 Shared_edits_hide:
   type: enum

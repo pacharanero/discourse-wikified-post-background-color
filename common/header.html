@@ -1,0 +1,5 @@
+<script type="text/discourse-plugin" version="0.8">
+  api.addPostClassesCallback((attrs) => {
+    if (attrs.shared_edits_enabled && attrs.canEdit) return ["shared-edits-post"];
+  });
+</script>

@@ -1,6 +1,8 @@
 @import "common/foundation/variables";
 /* $Wiki_post_background_color: defined as theme setting */
+/* $Shared_edits_background_color: defined as theme setting */
 /* $wiki_added_text: defined as theme setting */
+/* $Shared_edits_added_text: defined as theme setting */
 /* $Shared_edits_hide: defined as theme setting */
 
 
@@ -39,6 +41,43 @@
     $Wiki_post_background_color: var(--love-low, $love-low);
 }
 
+
+@if ($Shared_edits_background_color == ""){
+    $Shared_edits_background_color: var(--primary-low, $primary-low);
+}
+
+@if $Shared_edits_background_color == "primary" {
+    $Shared_edits_background_color: var(--primary-low, $primary-low);
+}
+@if $Shared_edits_background_color == "secondary" {
+    $Shared_edits_background_color: var(--secondary-low, $secondary-low);
+}
+@if $Shared_edits_background_color == "tertiary" {
+    $Shared_edits_background_color: var(--tertiary-low, $tertiary-low);
+}
+@if $Shared_edits_background_color == "quaternary" {
+    $Shared_edits_background_color: var(--quaternary-low, $quaternary-low);
+}
+@if $Shared_edits_background_color == "header-background" {
+    $Shared_edits_background_color: var(--header-background-low, $header-background-low);
+}
+@if $Shared_edits_background_color == "header-primary" {
+    $Shared_edits_background_color: var(--header-primary-low, $header-primary-low);
+}
+@if $Shared_edits_background_color == "highlight" {
+    $Shared_edits_background_color: var(--highlight-low, $highlight-low);
+}
+@if $Shared_edits_background_color == "danger" {
+    $Shared_edits_background_color: var(--danger-low, $danger-low);
+}
+@if $Shared_edits_background_color == "success" {
+    $Shared_edits_background_color: var(--success-low, $success-low);
+}
+@if $Shared_edits_background_color == "love" {
+    $Shared_edits_background_color: var(--love-low, $love-low);
+}
+
+
 @if ($Shared_edits_hide == "Yes"){
     div#revision-footer-buttons button:nth-of-type(1) {
     display: none !important;
@@ -50,10 +89,20 @@
     background-color: $Wiki_post_background_color;
     animation: none;
 }
+.shared-edits-post .topic-body .cooked {
+    background-color: $Shared_edits_background_color;
+    animation: none;
+}    
 
 // Add Wiki Text
     .post-info.edits .wiki::before {
         content: "#{$Wiki_added_text}";
         margin-right: 5px;
         font-weight: bold;
-    }  
+    }
+    .shared-edits-post .post-info.edits .widget-button::before {
+        content: "#{$Shared_edits_added_text}";
+        margin-right: 5px;
+        font-weight: bold;
+        color: var(--danger, $danger)
+    }
