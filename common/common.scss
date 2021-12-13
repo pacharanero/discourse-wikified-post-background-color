@@ -40,7 +40,7 @@
 }
 
 @if ($Shared_edits_hide == "Yes"){
-.shared-edits-post div#revision-footer-buttons button:nth-of-type(1) {
+    div#revision-footer-buttons button:nth-of-type(1) {
     display: none !important;
     }    
 }    
@@ -57,7 +57,7 @@
         margin-right: 5px;
         font-weight: bold;
     }
-    .post-info.edits .shared-edits::before {
+    .post-info.edits .shared-edits-post::before {
         content: "Shared Edits";
         margin-right: 5px;
         font-weight: bold;
