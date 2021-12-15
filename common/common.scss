@@ -3,7 +3,6 @@
 /* $Shared_edits_background_color: defined as theme setting */
 /* $wiki_added_text: defined as theme setting */
 /* $Shared_edits_added_text: defined as theme setting */
-/* $Shared_edits_hide: defined as theme setting */
 
 
 @if ($Wiki_post_background_color == ""){
@@ -75,14 +74,7 @@
 }
 @if $Shared_edits_background_color == "love" {
     $Shared_edits_background_color: var(--love-low, $love-low);
-}
-
-
-@if ($Shared_edits_hide == "Yes"){
-    div#revision-footer-buttons button:nth-of-type(1) {
-    display: none !important;
-    }    
-}    
+}  
 
 // Apply color and stop animation
 .wiki .topic-body .cooked {
@@ -94,7 +86,7 @@
     animation: none;
 }    
 
-// Add Wiki Text
+// Add text to top right of post
     .post-info.edits .wiki::before {
         content: "#{$Wiki_added_text}";
         margin-right: 5px;
