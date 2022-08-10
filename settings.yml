@@ -5,7 +5,7 @@ Wiki_post_background_color:
 
 Shared_edits_background_color:
   type: string
-  default: 'highlight'
+  default: 'tertiary'
   description: 'Enter a background color for Shared Edits posts.<br>Choose any Scheme color (primary, secondary, tertiary, quaternary, header background, header primary, highlight, danger, success, love)<br>You can also use HTML color codes (e.g. #abc123) or names (e.g. red)<br>Note: applies a low variant of the variable chosen'
 
 Wiki_added_text:
