@@ -41,7 +41,7 @@
 
 
 @if ($Shared_edits_background_color == ""){
-    $Shared_edits_background_color: var(--highlight-low, $highlight-low);
+    $Shared_edits_background_color: var(--tertiary-very-low, $tertiary-very-low);
 }
 
 @if $Shared_edits_background_color == "primary" {
