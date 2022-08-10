@@ -6,23 +6,22 @@
 
 
 @if ($Wiki_post_background_color == ""){
-    $Wiki_post_background_color: var(--primary-low, $primary-low);
+    $Wiki_post_background_color: var(--primary-very-low, $primary-very-low);
 }
-
 @if $Wiki_post_background_color == "primary" {
-    $Wiki_post_background_color: var(--primary-low, $primary-low);
+    $Wiki_post_background_color: var(--primary-very-low, $primary-very-low);
 }
 @if $Wiki_post_background_color == "secondary" {
-    $Wiki_post_background_color: var(--secondary-low, $secondary-low);
+    $Wiki_post_background_color: var(--secondary-very-low, $secondary-very-low);
 }
 @if $Wiki_post_background_color == "tertiary" {
-    $Wiki_post_background_color: var(--tertiary-low, $tertiary-low);
+    $Wiki_post_background_color: var(--tertiary-very-low, $tertiary-very-low);
 }
 @if $Wiki_post_background_color == "quaternary" {
     $Wiki_post_background_color: var(--quaternary-low, $quaternary-low);
 }
 @if $Wiki_post_background_color == "header-background" {
-    $Wiki_post_background_color: var(--header-background-low, $header-background-low);
+    $Wiki_post_background_color: var(--header-background, $header-background);
 }
 @if $Wiki_post_background_color == "header-primary" {
     $Wiki_post_background_color: var(--header-primary-low, $header-primary-low);
@@ -42,23 +41,23 @@
 
 
 @if ($Shared_edits_background_color == ""){
-    $Shared_edits_background_color: var(--primary-low, $primary-low);
+    $Shared_edits_background_color: var(--highlight-low, $highlight-low);
 }
 
 @if $Shared_edits_background_color == "primary" {
-    $Shared_edits_background_color: var(--primary-low, $primary-low);
+    $Shared_edits_background_color: var(--primary-very-low, $primary-very-low);
 }
 @if $Shared_edits_background_color == "secondary" {
-    $Shared_edits_background_color: var(--secondary-low, $secondary-low);
+    $Shared_edits_background_color: var(--secondary-very-low, $secondary-very-low);
 }
 @if $Shared_edits_background_color == "tertiary" {
-    $Shared_edits_background_color: var(--tertiary-low, $tertiary-low);
+    $Shared_edits_background_color: var(--tertiary-very-low, $tertiary-very-low);
 }
 @if $Shared_edits_background_color == "quaternary" {
     $Shared_edits_background_color: var(--quaternary-low, $quaternary-low);
 }
 @if $Shared_edits_background_color == "header-background" {
-    $Shared_edits_background_color: var(--header-background-low, $header-background-low);
+    $Shared_edits_background_color: var(--header-background, $header-background);
 }
 @if $Shared_edits_background_color == "header-primary" {
     $Shared_edits_background_color: var(--header-primary-low, $header-primary-low);
