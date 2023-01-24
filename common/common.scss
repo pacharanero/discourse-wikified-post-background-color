@@ -76,11 +76,11 @@
 
 // Apply color and stop animation
 .wiki .topic-body .cooked {
-    background-color: $Wiki_post_background_color;
+    background-color: $Wiki_post_background_color !important;
     animation: none;
 }
 .shared-edits-post .topic-body .cooked {
-    background-color: $Shared_edits_background_color;
+    background-color: $Shared_edits_background_color !important;
     animation: none;
 }    
 
